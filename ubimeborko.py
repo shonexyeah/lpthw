@@ -24,8 +24,8 @@ def pocetak():
         print(f"Vas iznos je: {konverzija_eurrsd} RSD.")
         kraj()
     elif prva == "rsd" and druga == "eur":
-        konverzija_eurrsd = multiply(float(iznos), 0.0085)
-        print(f"Vas iznos je: {konverzija_eurrsd} EUR.")
+        konverzija_rsdeur = multiply(float(iznos), 0.0085)
+        print(f"Vas iznos je: {konverzija_rsdeur} EUR.")
         kraj()
 
 
