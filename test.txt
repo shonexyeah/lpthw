@@ -1,0 +1,107 @@
+﻿ls
+mkdir lpthw
+cd lpthw
+ls
+
+### Preko text edita sam preimenovao, odnosno sacuvao .txt u ex1.py 
+ex1.py
+print("Hello World!")
+print("Hello again")
+print("I like typing this.")
+print("This is fun")
+print("Yay! Printing.")
+print("I'd much rather you 'not'.")
+print('I "said" do not touch this.')
+
+###Po zadatku je receno da otvorim terminal i kucam "python3 ex1.py", ali meni je izbacio error, odnosno da directory ne postoji:
+python: can't open file 'ex1.py': [Errno 2] No such file or directory
+Tako da sam ja uradio sledece: 
+
+ls
+cd lpthw
+ls
+python3 ex1.py
+
+STUDY DRILLS zadatak;
+print("MAJKO MILA") dodao sam jos jednu liniju koda i sledeci zadatak je bio da dodam #(tarabu)
+###kada sam je upotrebio ispred bilo koje f-je, ukapirao sam da python ignorise sve sto napisem posle #, tako da je zakljucak da je to dodavanje komentara(smernica) za mene ili osobu koja ce citati kasnije kod
+
+COMMENTS AND POUND CHARACTERS
+
+# A comment, this is so you can read your program later.
+# Anything after the # is ignored by python.
+
+print("I could have code like this.") # and the commenct after is ignored
+
+# You can also use a comment to "disable" or comment out code:
+# print ("This wont run.")
+
+print("This will run.")
+
+### Ovde je sve bilo jasno i bez gresaka, uspesno sam primenio "#" f-ju
+
+NUMBERS AND MATH
+
++ plus
+- minus
+/ slash
+* asterisk
+% percent
+< less-than
+> greather-than
+<= less-than-equal
+>= greater-than-equal
+
+print("I will now count my chickens:") # jednostavna print funkcija, samo text izmedju "" ispisuje
+
+print("Hens", 25 + 30 / 6)
+print("Roosters", 100 - 25 * 3 % 4)
+
+print("Now i will count the eggs:")
+
+print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
+
+print("Is it true that 3 + 2 < 5 - 7?")
+
+print(3 + 2 < 5 - 7)
+
+print("What is 3 + 2?", 3 + 2) ### ovde nisam siguran da mi je jasno, mislio sam da bi True/False f-ja radila neophodno koristiti if, elif f-je ispred print
+print("What is 5 - 7?", 5 - 7)
+
+print("Oh, that's why it's False.")
+
+print("How about some more.")
+
+print("Is it greater?", 5 > -2)
+print("Is it greater or equal?", 5 >= -2)
+print("Is it less or equal?", 5 <= -2)
+
+print("Idemo racunanje sa decimalama, odnosno float number")
+
+print("Ja sam tezak:", 180.0 - 62.8)
+print("Voleo bih da imam 30 kg manje, odnosno:", 117.2 - 30.0) #ovde sam prvobitno pogresio, zaboravio sam da stavim " , " (zarez)
+
+VARIJABLE 46.
+
+NameError : name ’ c a r _ p o o l _ c a p a c i t y ’ i s not defined
+Explain this error in your own words. Make sure you use line numbers and explain why.
+### nije definisana varijabla, treba "carpool_capacity" napisati
+
+### kgs to pounds round(2.205) ||| inches to cm 2.54
+
+STRING je text koji zelim da prikazem, exportujem iz programa koji pisem, python zna da je string tako sto koristim "" double quotes ili singles
+
+STRANA 57. 
+end' ' nije mi jasno kako i zasto je spojio 
+
+\n NOVI RED
+\t TABBET, uvucen red
+\n\t nov red, uvucen
+
+argv is the ”argument variable,” a very standard name in programming
+
+cat - concatenate - povezivanje u obliku lanca
+
+def - define - You can create a function by using the word def in Python.
+
+len - lenght, duzina reci, slova
