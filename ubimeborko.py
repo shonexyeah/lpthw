@@ -27,6 +27,10 @@ def pocetak():
         konverzija_rsdeur = multiply(float(iznos), 0.0085)
         print(f"Vas iznos je: {konverzija_rsdeur} EUR.")
         kraj()
+    elif prva == "usd" and druga == "huf":
+        print("Nije moguce izvrsiti datu transakciju.")
+        print("Molimo Vas promenite valutu.")
+        pocetak()
 
 
 def kraj():
